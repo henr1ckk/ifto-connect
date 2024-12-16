@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    height: 100%;
+    font-weight: bold;
+    overflow-x: hidden;
+    background-color: rgb(32,33,36);
+}
+header{
+    padding: 20px 0;
+    height: 80px;
+    margin-bottom: 10%;
+}
+nav{
+    padding: 0 2%;
+    text-align: right;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding:  8px;
+    margin: 0px;
+    right: 100%;
+}
+a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 0%;
+    opacity: 50%;
+}
+a:hover {
+    opacity: 100%;
+}
+.sair:hover {
+    opacity: 100%;
+}
+.sair {
+    color: red;
+    margin-left: 3%;
+    opacity: 50%;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(23,23,23);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    color: lightskyblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.postagem {
+    border: #888 solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+h2, h3 {
+    color: lightskyblue;
+    margin-bottom: 15px;
+    text-align: left; /* Alinha texto à esquerda */
+    width: 100%; /* Garante que o h2 e h3 ocupem toda a largura */
+    padding: 0; /* Remove qualquer padding que possa estar afetando o alinhamento */
+    clear: both; /* Garante que não há flutuação afetando o alinhamento */
+}
+p {
+    font-size: 18px;
+    color: #ddd;
+}
+.postagens {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    opacity: 50%;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    opacity: 100%;
+}
+h2{
+    text-align: left;
+    margin-left: 0%;
+    color: lightskyblue;
+    left: 100%;
+    margin-bottom: 15px;
+}
